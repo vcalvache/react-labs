@@ -8,9 +8,8 @@ function Rocket(){
         setTimeout( () => {
             setCount(() => count - 1);
             if (count == 0){
-               setCount(0);
-               setEngine("Ignition!");
-           
+              setEngine("Ignition!");
+              setCount(0);           
             }
         }, 1000);
       });
